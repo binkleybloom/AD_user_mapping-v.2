@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>edu.syr.cas.adusermapping</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/login_and_map.py</string>
+  </array>
+  <key>LimitLoadToSessionType</key>
+  <array>
+    <string>Aqua</string>
+  </array>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>KeepAlive</key>
+  <dict>
+     <key>PathState</key>
+     <dict>
+       <key>/private/tmp/edu.syr.cas.adusermapping.runatload</key>
+       <true/>
+     </dict>
+  </dict>
+</dict>
+</plist>
