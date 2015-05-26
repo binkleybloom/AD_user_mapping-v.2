@@ -8,10 +8,6 @@
   <array>
     <string>/usr/local/login_and_map.py</string>
   </array>
-  <key>LimitLoadToSessionType</key>
-  <array>
-    <string>Aqua</string>
-  </array>
   <key>RunAtLoad</key>
   <false/>
   <key>KeepAlive</key>
